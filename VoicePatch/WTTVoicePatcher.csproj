@@ -10,7 +10,7 @@
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>WTT-VoicePatcher</AssemblyName>
     <Description>WTT-VoicePatcher</Description>
-    <Version>1.0</Version>
+    <Version>1.0.1</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -23,23 +23,23 @@
     <Reference Include="0Harmony">
       <HintPath>..\..\..\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="aki-core">
-      <HintPath>..\..\..\BepInEx\plugins\spt\aki-core.dll</HintPath>
+    <Reference Include="spt-common">
+      <HintPath>..\..\..\BepInEx\plugins\spt\spt-common.dll</HintPath>
     </Reference>
-    <Reference Include="aki-custom">
-      <HintPath>..\..\..\BepInEx\plugins\spt\aki-custom.dll</HintPath>
+    <Reference Include="spt-core">
+      <HintPath>..\..\..\BepInEx\plugins\spt\spt-core.dll</HintPath>
     </Reference>
-    <Reference Include="aki-debugging">
-      <HintPath>..\..\..\BepInEx\plugins\spt\aki-debugging.dll</HintPath>
+    <Reference Include="spt-custom">
+      <HintPath>..\..\..\BepInEx\plugins\spt\spt-custom.dll</HintPath>
     </Reference>
-    <Reference Include="aki-singleplayer">
-      <HintPath>..\..\..\BepInEx\plugins\spt\aki-singleplayer.dll</HintPath>
+    <Reference Include="spt-debugging">
+      <HintPath>..\..\..\BepInEx\plugins\spt\spt-debugging.dll</HintPath>
     </Reference>
-    <Reference Include="Aki.Common">
-      <HintPath>..\..\..\EscapeFromTarkov_Data\Managed\Aki.Common.dll</HintPath>
+    <Reference Include="spt-reflection">
+      <HintPath>..\..\..\BepInEx\plugins\spt\spt-reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Aki.Reflection">
-      <HintPath>..\..\..\EscapeFromTarkov_Data\Managed\Aki.Reflection.dll</HintPath>
+    <Reference Include="spt-singleplayer">
+      <HintPath>..\..\..\BepInEx\plugins\spt\spt-singleplayer.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>

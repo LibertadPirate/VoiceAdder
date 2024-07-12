@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Aki.Reflection.Patching;
-using Aki.Reflection.Utils;
+using SPT.Reflection.Patching;
+using SPT.Reflection.Utils;
 using HarmonyLib;
 using Newtonsoft.Json;
 
